@@ -1,0 +1,5 @@
+---
+source: src/record/other.rs
+expression: record
+---
+deadbeef.example.com.	300	IN	TYPE65280	\# 4 deadbeef

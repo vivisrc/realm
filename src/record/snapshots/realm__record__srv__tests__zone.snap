@@ -1,0 +1,5 @@
+---
+source: src/record/srv.rs
+expression: record
+---
+_submissions._tcp.example.com.	3600	IN	SRV	10 10 587 smtp.example.com.

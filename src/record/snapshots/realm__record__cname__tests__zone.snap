@@ -1,0 +1,5 @@
+---
+source: src/record/cname.rs
+expression: record
+---
+www.example.com.	7200	IN	CNAME	gamma.host.example.com.

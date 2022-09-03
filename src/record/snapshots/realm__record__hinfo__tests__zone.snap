@@ -1,0 +1,5 @@
+---
+source: src/record/hinfo.rs
+expression: record
+---
+gamma.host.example.com.	86400	IN	HINFO	"i386" "Linux"

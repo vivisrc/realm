@@ -1,0 +1,5 @@
+---
+source: src/record/ch_a.rs
+expression: record
+---
+gamma.host.example.com.	3600	CH	A	host.example.com. 710

@@ -1,0 +1,29 @@
+---
+source: src/record/other.rs
+expression: "read_zone(\". 3600 IN TYPE65280 \\\\# 0\", Vec::new().into())"
+---
+Ok(
+    Node {
+        children: {},
+        records: {
+            (
+                In,
+                Other(
+                    65280,
+                ),
+            ): [
+                Other(
+                    OtherRecord {
+                        name: DomainName(.),
+                        ttl: 3600,
+                        rtype: Other(
+                            65280,
+                        ),
+                        rclass: In,
+                        data: [],
+                    },
+                ),
+            ],
+        },
+    },
+)

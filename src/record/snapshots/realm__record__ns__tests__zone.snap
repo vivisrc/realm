@@ -1,0 +1,5 @@
+---
+source: src/record/ns.rs
+expression: record
+---
+example.com.	86400	IN	NS	ns1.example.com.

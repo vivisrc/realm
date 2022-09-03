@@ -1,0 +1,5 @@
+---
+source: src/record/rp.rs
+expression: record
+---
+example.com.	86400	IN	RP	admin.example.com. admin.people.example.com.

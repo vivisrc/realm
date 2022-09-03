@@ -1,0 +1,5 @@
+---
+source: src/record/soa.rs
+expression: record
+---
+example.com.	300	IN	SOA	ns1.example.com. admin.example.com. 400 3600 1800 86400 300

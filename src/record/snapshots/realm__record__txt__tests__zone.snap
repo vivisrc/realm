@@ -1,0 +1,5 @@
+---
+source: src/record/txt.rs
+expression: record
+---
+example.com.	7200	IN	TXT	"v=DKIM1; p=" "VeryLongPublicKeyHere"

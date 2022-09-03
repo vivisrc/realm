@@ -1,0 +1,5 @@
+---
+source: src/record/ptr.rs
+expression: record
+---
+1.2.0.192.in-addr.arpa.	86400	IN	PTR	iota.host.example.com.

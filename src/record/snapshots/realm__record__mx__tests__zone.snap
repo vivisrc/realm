@@ -1,0 +1,5 @@
+---
+source: src/record/mx.rs
+expression: record
+---
+example.com.	7200	IN	MX	10 alpha.host.example.com.

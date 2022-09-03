@@ -1,0 +1,5 @@
+---
+source: src/record/in_aaaa.rs
+expression: record
+---
+iota.host.example.com.	3600	IN	AAAA	2001:db2:0:30::1

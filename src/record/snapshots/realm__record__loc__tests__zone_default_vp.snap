@@ -1,0 +1,39 @@
+---
+source: src/record/loc.rs
+expression: "read_zone(\". 3600 IN LOC 1 2 3 N 4 5 6 E 7m 8m 9m\", Vec::new().into())"
+---
+Ok(
+    Node {
+        children: {},
+        records: {
+            (
+                In,
+                Loc,
+            ): [
+                Loc(
+                    LocRecord {
+                        name: DomainName(.),
+                        ttl: 3600,
+                        rclass: In,
+                        version: 0,
+                        latitude: 3723000,
+                        longitude: 14706000,
+                        altitude: 10000700,
+                        size: Size {
+                            base: 8,
+                            exponent: 2,
+                        },
+                        horizontal_precision: Size {
+                            base: 9,
+                            exponent: 2,
+                        },
+                        vertical_precision: Size {
+                            base: 1,
+                            exponent: 3,
+                        },
+                    },
+                ),
+            ],
+        },
+    },
+)
